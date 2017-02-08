@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	body{
+		padding: 0;
+		margin: 0;
+		background: none;
+		color: black;
+	}
+	#fullContent {
+		width: 100%;
+		height:100%;
+		border: 1px solid black;
+	}
+	#headerContent{
+		width: 100%;
+		height:50px;
+		border:1px solid green;
+
+	}
+	#bodyContent {
+		width: 100%;
+		height: 550%;
+		border: 1px solid red;
+	}
+	#navContent{
+		width: 100%;
+		height:50px;
+		border:1px solid grey;
+
+	}
+	#mainContent{
+		width: 100%;
+		height: 500px;
+		border: 1px solid #000000;
+		margin: auto;
+		clear: both;
+	}
+	#leftContent{
+		width: 75%;
+		height: 450px;
+		border: 1px solid purple;
+		float: left;
+	}
+	#rightContent{
+		width: 24%;
+		height: 450px;
+		border: 1px solid orange;
+		float: right;
+	}
+	#footerContent {
+		width: 100%;
+		height:50px;
+		border:1px solid blue;
+	}
+</style>
+	<title>Layout</title>
+</head>
+<body>
+	<div id="fullContent">
+		<p>The full content</p>
+		<div id="headerContent">
+			<p>The header content</p>
+		</div>	
+		<div id="bodyContent">
+			<p>The body content</p>
+			<div id="navContent">
+				<p>The nav content</p>
+			</div>
+			<div id="mainContent">
+			<p>The main content</p>
+				<div id="leftContent">
+					<p>The left content</p>
+				</div>
+				<div id="rightContent">
+					<p>The right content</p>
+				</div>
+				
+			</div>
+		</div>
+		<div id="footerContent">
+			<p>The footer content</p>
+		</div>
+	</div>
+
+</body>
+</html> 
